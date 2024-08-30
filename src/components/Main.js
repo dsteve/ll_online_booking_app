@@ -1,18 +1,20 @@
+import '../App.css';
+import './Main.css';
+
+import Hero from './Hero';
+import Highlights from './Highlights';
+import Testimonials from './Testimonials';
+import About from './About';
+
 function Main() {
     return (
         <main>
-            <section>
-                Hero
-            </section>
-            <section>
-                Highlights
-            </section>
-            <section>
-                Testimonials
-            </section>
-            <section>
-                Little Lemon
-            </section>
+            <div id="ll-Home" class="ll-main-container ll-margin-h-1rem ll-temporary-background">
+                <Hero />
+                <Highlights />
+                <Testimonials />
+                <About />
+            </div>
         </main>
     );
 }

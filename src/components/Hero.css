@@ -1,0 +1,8 @@
+.ll-hero-container {
+    display: flex;
+    height: 414px;
+    justify-content: center;
+    background-image: url(../assets/placeholder/hero-section-placeholder.png);
+    background-size: cover;
+    background-position: center;
+}

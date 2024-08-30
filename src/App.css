@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+/* global styles */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+.ll-ft-markazy-text-regular {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ll-ft-markazy-text-medium {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.markazi-text-semibold {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ll-ft-markazi-text-bold {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+.ll-ft-karla-extralight {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ll-ft-karla-light {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ll-ft-karla-regular {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ll-ft-karla-medium {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ll-ft-karla-semibold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ll-ft-karla-bold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ll-ft-karla-extrabold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  font-size: 14px;
+}
+
+.ll-std-background {
+  background-color: white;
+  color: black;
+}
+
+.ll-light-primary-background {
+  background-color: #F4CE14;
+  color:black;
+}
+
+.ll-dark-primary-background {
+  background-color: #495E57;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ll-footer-background {
+  background-color: #F5F5F5;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ll-temporary-background {
+  background-color: lightgreen;
+  color: black;
+}
+
+.ll-no-h-scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ll-margin-h-1rem {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  /* could be omitted when same as right margin */
+}
+
+/* style for fixing the header and nav on top */
+.ll-fixed-area {
+  position: fixed;
+  /* To be continued : set value to fixed */
+  top: 0px;
+  z-index: 0;
+  /* allows a proper focus on the nav buttons when scrolling */
+  width: 100%;
+}
+
+.ll-scroll-area-init-position {
+  margin-top: 30vw;
+  /* set the title below the fixed area */
+  /* WARNING: Using a const value does not handle responsivness */
 }

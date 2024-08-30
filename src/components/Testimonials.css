@@ -1,0 +1,8 @@
+.ll-testimonials-container {
+    display: flex;
+    height: 599px;
+    justify-content: center;
+    background-image: url(../assets/placeholder/testimonials-section-placeholder.png);
+    background-size: cover;
+    background-position: center;
+}

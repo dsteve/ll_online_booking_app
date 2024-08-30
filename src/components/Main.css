@@ -1,0 +1,7 @@
+/* styles for header */
+.ll-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

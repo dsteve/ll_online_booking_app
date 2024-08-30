@@ -1,0 +1,12 @@
+/* styles for header */
+.ll-header-container {
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+}
+
+.ll-header-img {
+    height: 5vh;
+}
