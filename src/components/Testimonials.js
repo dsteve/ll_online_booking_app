@@ -4,7 +4,7 @@ import './Testimonials.css';
 function Testimonials() {
     return (
         <section>
-            <div class="ll-testimonials-container ll-std-background">
+            <div className="ll-testimonials-container ll-std-background">
                 <p> This is a fake view </p>
             </div>
         </section>

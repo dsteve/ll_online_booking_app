@@ -4,7 +4,7 @@ import './Highlights.css';
 function Highlights() {
     return (
         <section>
-            <div class="ll-highlights-container ll-std-background">
+            <div className="ll-highlights-container ll-std-background">
                 <p> This is a fake view </p>
             </div>
         </section>

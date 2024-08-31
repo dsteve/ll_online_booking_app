@@ -133,7 +133,6 @@
 }
 
 .ll-scroll-area-init-position {
-  margin-top: 30vw;
-  /* set the title below the fixed area */
-  /* WARNING: Using a const value does not handle responsivness */
+  margin-top: 10vh;
+  /* set the main area below the fixed area, namely the Header with 10vh height */
 }

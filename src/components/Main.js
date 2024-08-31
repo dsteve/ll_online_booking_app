@@ -9,7 +9,8 @@ import About from './About';
 function Main() {
     return (
         <main>
-            <div id="ll-Home" class="ll-main-container ll-margin-h-1rem ll-temporary-background">
+            <div id="ll-Home" className="ll-main-container ll-margin-h-1rem ll-temporary-background">
+                <p className="ll-scroll-area-init-position"> </p>
                 <Hero />
                 <Highlights />
                 <Testimonials />
