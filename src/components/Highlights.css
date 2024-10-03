@@ -1,8 +1,10 @@
 .ll-highlights-container {
     display: flex;
-    height: 734px;
+
     justify-content: center;
     background-image: url(../assets/placeholder/highlights-section-placeholder.png);
     background-size: cover;
     background-position: center;
+    min-height: 25%;
+    height:734px;
 }

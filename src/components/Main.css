@@ -1,7 +1,14 @@
-/* styles for header */
+/* styles for main */
+
+.ll-scroll-area-init-position {
+    margin-top: 10vh;
+    /* set the main area below the fixed area, namely the Header with 10no-h-scrollvh height */
+  }
+
 .ll-main-container {
+    flex: 16,0,auto;
+    min-height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }

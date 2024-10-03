@@ -83,7 +83,22 @@
 
 * {
   margin: 0;
-  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  * {
+    font-size: 14px;
+  }
 }
 
 .ll-std-background {
@@ -93,7 +108,7 @@
 
 .ll-light-primary-background {
   background-color: #F4CE14;
-  color:black;
+  color: black;
 }
 
 .ll-dark-primary-background {
@@ -132,7 +147,9 @@
   width: 100%;
 }
 
-.ll-scroll-area-init-position {
-  margin-top: 10vh;
-  /* set the main area below the fixed area, namely the Header with 10vh height */
+.ll-app-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300vh;
 }
